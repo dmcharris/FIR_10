@@ -1,0 +1,137 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -10.520
+TNS   : -569.214
+
+Type  : Slow 1200mV 85C Model Setup 'RESET'
+Slack : -2.731
+TNS   : -54.142
+
+Type  : Slow 1200mV 85C Model Setup 'FSM:FSM_PROCESS|state.A'
+Slack : -1.920
+TNS   : -5.679
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM:FSM_PROCESS|state.A'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'RESET'
+Slack : 0.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : 0.063
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : -0.126
+TNS   : -25.024
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -230.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM:FSM_PROCESS|state.A'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -9.353
+TNS   : -496.920
+
+Type  : Slow 1200mV 0C Model Setup 'RESET'
+Slack : -2.419
+TNS   : -47.530
+
+Type  : Slow 1200mV 0C Model Setup 'FSM:FSM_PROCESS|state.A'
+Slack : -1.652
+TNS   : -4.901
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM:FSM_PROCESS|state.A'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'RESET'
+Slack : 0.750
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : 0.118
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : -0.127
+TNS   : -25.708
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -230.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM:FSM_PROCESS|state.A'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -5.819
+TNS   : -253.181
+
+Type  : Fast 1200mV 0C Model Setup 'RESET'
+Slack : -1.238
+TNS   : -18.534
+
+Type  : Fast 1200mV 0C Model Setup 'FSM:FSM_PROCESS|state.A'
+Slack : -0.937
+TNS   : -2.431
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RESET'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM:FSM_PROCESS|state.A'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -0.058
+TNS   : -11.767
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : -0.083
+TNS   : -16.586
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -244.632
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RESET'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM:FSM_PROCESS|state.A'
+Slack : 0.447
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,2 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,FIR_10:FIR|MAC:MAC_PROCESS|lpm_mult:Mult0|mult_e4t:auto_generated|mac_out2,

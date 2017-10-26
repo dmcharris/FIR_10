@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.FIR_package.all;
+
+entity REG is
+	port(
+		data_in: in std_logic_vector(15 downto 0);
+		clk, reset, wr: in std_logic;
+		Taps: out Taps_array
+	);
+end Reg;
+
+architecture arq of REG is
+	signal mem: Taps_array;
+begin
+	
+	process (clk, reset, wr)
+	begin
+		if (reset = '1') then
+			for i in 1 to 10 loop
+				mem(i) <= x"0000";
+			end loop;
+		elsif (clk = '1' and clk'event) then
+			if (wr = '1') then
+				for i in 10 downto 2 loop
+					mem(i) <= mem(i-1);
+				end loop;
+				mem(1) <= data_in;
+			else
+				for i in 10 downto 1 loop
+					mem(i) <= mem(i);
+				end loop;
+			end if;
+		end if;
+	end process;
+	
+	process (mem)
+	begin
+		for i in 1 to 10 loop
+			Taps(i) <= mem(i);
+		end loop;
+	end process;
+	
+end arq;

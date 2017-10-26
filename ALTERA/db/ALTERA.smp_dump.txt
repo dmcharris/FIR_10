@@ -1,0 +1,17 @@
+
+State Machine - |ALTERA|FIR_10:FIR|FSM:FSM_PROCESS|state
+Name state.N state.M state.L state.K state.J state.I state.H state.G state.F state.E state.D state.C state.B state.A 
+state.A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.B 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.C 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.D 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.E 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.F 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.G 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.H 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.I 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.J 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.K 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.L 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.M 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.N 1 0 0 0 0 0 0 0 0 0 0 0 0 1 

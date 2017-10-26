@@ -1,0 +1,95 @@
+--FSM code
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_signed.all;
+
+entity FSM is
+	port 
+	(
+		reset, clk, wr								: in std_logic;
+		wr_reg,ready_signal						: out std_logic;
+		dir											: out std_logic_vector(1 downto 0)
+	);
+	
+end FSM;
+
+architecture arq of FSM is
+	type states is (A,B,C,D,E,F,G,H,I,J,K);
+	signal state, nxt_state: states;
+begin
+	process(clk,reset)
+	begin
+		if (clk'event and clk='1') then
+			if (reset='1') then
+				state <= A;
+			else
+				state <= nxt_state;			
+			end if;
+		end if;
+	end process;
+
+	process(state)
+	begin
+		case state is
+			when A => wr_reg <= '0';
+						 dir <= "00";
+						 ready_signal <= '0';						 
+			when B => wr_reg <= wr;
+						 dir <= "00";
+						 ready_signal <= '0';						 
+			when C => wr_reg <= wr;
+						 dir <= "01";
+						 ready_signal <= '0';						 
+			when D => wr_reg <= wr;
+						 dir <= "10";
+						 ready_signal <= '0';						 
+			when E => wr_reg <= wr;
+						 dir <= "11";
+						 ready_signal <= '0';						 
+			when F => wr_reg <= '0';
+						 dir <= "00";
+						 ready_signal <= '1';
+		end case;
+	end process;
+
+	process(state)
+	begin
+		case state is
+			when A =>	
+				if (reset='1') then
+					nxt_state <= A;
+				elsif(wr = '1') then
+					nxt_state <= B;
+				end if;
+			when B =>
+				if (reset='1') then
+					nxt_state <= A;
+				elsif(wr = '1') then
+					nxt_state <= c;
+				end if;			
+			when C =>
+				if (reset='1') then
+					nxt_state <= A;
+				elsif(wr = '1') then
+					nxt_state <= D;
+				end if;
+			when D =>
+				if (reset='1') then
+					nxt_state <= A;
+				elsif(wr = '1') then
+					nxt_state <= E;
+				end if;
+			when E =>
+				if (reset='1') then
+					nxt_state <= A;
+				elsif(wr = '1') then
+					nxt_state <= F;
+				end if;
+			when F =>
+				nxt_state <= A;
+		end case;
+	end process;
+	
+end arq;
