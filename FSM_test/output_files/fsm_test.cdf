@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("C:/Users/uninorte/Documents/FIR_10/FSM_test/output_files/") File("fsm_test.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("C:/Users/Daniela/Desktop/FIR_10/FSM_test/output_files/") File("fsm_test.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

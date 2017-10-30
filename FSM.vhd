@@ -34,49 +34,67 @@ begin
 	process(state,mac_out)
 	begin
 		case state is
-			when A => wr_reg <= '0';
+			when A => 
+						 wr_reg <= '0';
 						 dir <= 0;
 						 ready_signal <= '0';	
-			when B => wr_reg <= '1';
+			when B => 
+						 wr_reg <= '1';
 						 dir <= 0;
 						 ready_signal <= '0';
-			when C => wr_reg <= '0';
+			when C => 
+						 wr_reg <= '0';
+						 dir <= 0;
+						 ready_signal <= '0';
+			when D => 	
+						 wr_reg <= '0';
 						 dir <= 1;
 						 ready_signal <= '0';
-			when D => wr_reg <= '0';
+			when E => 
+						 wr_reg <= '0';
 						 dir <= 2;
 						 ready_signal <= '0';
-			when E => wr_reg <= '0';
+			when F => 
+						 wr_reg <= '0';
 						 dir <= 3;
 						 ready_signal <= '0';
-			when F => wr_reg <= '0';
+			when G => 
+						 wr_reg <= '0';
 						 dir <= 4;
 						 ready_signal <= '0';
-			when G => wr_reg <= '0';
+			when H => 
+						 wr_reg <= '0';
 						 dir <= 5;
 						 ready_signal <= '0';
-			when H => wr_reg <= '0';
+			when I => 
+						 wr_reg <= '0';
 						 dir <= 6;
 						 ready_signal <= '0';
-			when I => wr_reg <= '0';
+			when J => 
+						 wr_reg <= '0';
 						 dir <= 7;
 						 ready_signal <= '0';
-			when J => wr_reg <= '0';
+			when K => 
+						 wr_reg <= '0';
 						 dir <= 8;
 						 ready_signal <= '0';
-			when K => wr_reg <= '0';
+			when L => 
+						 wr_reg <= '0';
 						 dir <= 9;
 						 ready_signal <= '0';
-			when L => wr_reg <= '0';
+			when M => 
+						 wr_reg <= '0';
+						 --dir <= 0;
 						 dir <= 10;
+						 --ready_signal <= '1';
 						 ready_signal <= '0';
-			when M => wr_reg <= '0';
+						 --data_out <= mac_out;
+			when N => 
+						 wr_reg <= '0';
 						 dir <= 0;
+						 --ready_signal <= '0';
 						 ready_signal <= '1';
 						 data_out <= mac_out;
-			when N => wr_reg <= '0';
-						 dir <= 0;
-						 ready_signal <= '0';
 			end case;
 	end process;
 

@@ -3,27 +3,27 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk_div_mac:CLOCK_MAC|clk_out'
-Slack : -6.402
-TNS   : -331.554
+Slack : -6.326
+TNS   : -342.398
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -2.926
-TNS   : -66.880
+Slack : -3.580
+TNS   : -75.027
 
-Type  : Slow 1200mV 85C Model Setup 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : -2.531
-TNS   : -40.719
+Type  : Slow 1200mV 85C Model Setup 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : -2.043
+TNS   : -30.334
 
 Type  : Slow 1200mV 85C Model Setup 'FIR_10:U1|clk_div:CLK_D|clk_out'
-Slack : -0.797
-TNS   : -2.414
+Slack : -0.909
+TNS   : -3.064
 
-Type  : Slow 1200mV 85C Model Hold 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : 0.140
+Type  : Slow 1200mV 85C Model Hold 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : 0.242
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk_div_mac:CLOCK_MAC|clk_out'
-Slack : 0.382
+Slack : 0.404
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'FIR_10:U1|clk_div:CLK_D|clk_out'
@@ -31,7 +31,7 @@ Slack : 0.406
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.559
+Slack : 0.558
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_div_mac:CLOCK_MAC|clk_out'
@@ -46,28 +46,28 @@ Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FIR_10:U1|clk_div:CLK_D|clk_o
 Slack : -1.285
 TNS   : -6.425
 
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : 0.385
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : 0.286
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'clk_div_mac:CLOCK_MAC|clk_out'
-Slack : -5.618
-TNS   : -291.606
+Slack : -5.542
+TNS   : -301.433
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -2.630
-TNS   : -59.888
+Slack : -3.238
+TNS   : -67.256
 
-Type  : Slow 1200mV 0C Model Setup 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : -2.318
-TNS   : -35.794
+Type  : Slow 1200mV 0C Model Setup 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : -1.864
+TNS   : -26.315
 
 Type  : Slow 1200mV 0C Model Setup 'FIR_10:U1|clk_div:CLK_D|clk_out'
-Slack : -0.616
-TNS   : -1.810
+Slack : -0.716
+TNS   : -2.380
 
-Type  : Slow 1200mV 0C Model Hold 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : 0.139
+Type  : Slow 1200mV 0C Model Hold 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : 0.222
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk_div_mac:CLOCK_MAC|clk_out'
@@ -79,7 +79,7 @@ Slack : 0.357
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.496
+Slack : 0.498
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_div_mac:CLOCK_MAC|clk_out'
@@ -94,45 +94,45 @@ Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FIR_10:U1|clk_div:CLK_D|clk_ou
 Slack : -1.285
 TNS   : -6.425
 
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : 0.456
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : 0.409
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'clk_div_mac:CLOCK_MAC|clk_out'
-Slack : -2.625
-TNS   : -102.639
+Slack : -2.654
+TNS   : -109.882
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -0.909
-TNS   : -20.361
+Slack : -1.269
+TNS   : -24.856
 
-Type  : Fast 1200mV 0C Model Setup 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : -0.809
-TNS   : -5.652
+Type  : Fast 1200mV 0C Model Setup 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : -0.541
+TNS   : -1.138
 
 Type  : Fast 1200mV 0C Model Setup 'FIR_10:U1|clk_div:CLK_D|clk_out'
-Slack : 0.112
+Slack : 0.062
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : 0.014
+Type  : Fast 1200mV 0C Model Hold 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : 0.023
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk_div_mac:CLOCK_MAC|clk_out'
-Slack : 0.032
+Slack : 0.072
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'FIR_10:U1|clk_div:CLK_D|clk_out'
-Slack : 0.180
+Slack : 0.181
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.260
+Slack : 0.257
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -28.698
+TNS   : -28.719
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_div_mac:CLOCK_MAC|clk_out'
 Slack : -1.000
@@ -142,8 +142,8 @@ Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FIR_10:U1|clk_div:CLK_D|clk_ou
 Slack : -1.000
 TNS   : -5.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FIR_10:U1|FSM:FSM_PROCESS|state.M'
-Slack : 0.304
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FIR_10:U1|FSM:FSM_PROCESS|state.N'
+Slack : 0.261
 TNS   : 0.000
 
 ------------------------------------------------------------

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fsm_test
-Thu Oct 26 18:42:12 2017
+Mon Oct 30 15:30:14 2017
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -52,7 +52,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 26 18:42:12 2017       ;
+; Analysis & Synthesis Status        ; Successful - Mon Oct 30 15:30:14 2017       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; fsm_test                                    ;
 ; Top-level Entity Name              ; fsm_test                                    ;
@@ -160,7 +160,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 2           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -177,24 +177,24 @@ agreement for further details.
 +----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                           ; Library ;
 +----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
-; ../clk_div.vhd                   ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/clk_div.vhd                         ;         ;
-; ../MAC.vhd                       ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/MAC.vhd                             ;         ;
-; ../sieteseg.vhd                  ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/sieteseg.vhd                        ;         ;
-; ../REG.vhd                       ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/REG.vhd                             ;         ;
-; ../FSM.vhd                       ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/FSM.vhd                             ;         ;
-; ../FIR_package.vhd               ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/FIR_package.vhd                     ;         ;
-; ../FIR_10.vhd                    ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd                          ;         ;
-; ../Data_Gen.vhd                  ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd                        ;         ;
-; ../clk_div_mac.vhd               ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/clk_div_mac.vhd                     ;         ;
-; ../bcd27seg.vhd                  ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/bcd27seg.vhd                        ;         ;
-; fsm_test.vhd                     ; yes             ; User VHDL File               ; C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd               ;         ;
+; ../clk_div.vhd                   ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/clk_div.vhd                            ;         ;
+; ../MAC.vhd                       ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/MAC.vhd                                ;         ;
+; ../sieteseg.vhd                  ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/sieteseg.vhd                           ;         ;
+; ../REG.vhd                       ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/REG.vhd                                ;         ;
+; ../FSM.vhd                       ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/FSM.vhd                                ;         ;
+; ../FIR_package.vhd               ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/FIR_package.vhd                        ;         ;
+; ../FIR_10.vhd                    ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd                             ;         ;
+; ../Data_Gen.vhd                  ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd                           ;         ;
+; ../clk_div_mac.vhd               ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/clk_div_mac.vhd                        ;         ;
+; ../bcd27seg.vhd                  ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/bcd27seg.vhd                           ;         ;
+; fsm_test.vhd                     ; yes             ; User VHDL File               ; C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd                  ;         ;
 ; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
 ; aglobal170.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc  ;         ;
 ; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
 ; multcore.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/multcore.inc    ;         ;
 ; bypassff.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/bypassff.inc    ;         ;
 ; altshift.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altshift.inc    ;         ;
-; db/mult_e4t.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/uninorte/Documents/FIR_10/FSM_test/db/mult_e4t.tdf            ;         ;
+; db/mult_e4t.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Users/Daniela/Desktop/FIR_10/FSM_test/db/mult_e4t.tdf               ;         ;
 +----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------+---------+
 
 
@@ -304,38 +304,38 @@ Encoding Type:  One-Hot
 +-----------------------------------------------------+-----------------------------------+------------------------+
 ; Latch Name                                          ; Latch Enable Signal               ; Free of Timing Hazards ;
 +-----------------------------------------------------+-----------------------------------+------------------------+
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[0]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[1]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[2]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[3]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[4]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[5]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[6]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[7]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[8]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[9]               ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[10]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[11]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[12]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[13]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[14]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[15]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[16]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[17]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[18]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[19]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[20]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[21]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[22]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[23]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[24]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[25]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[26]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[27]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[28]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[29]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[30]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
-; FIR_10:U1|FSM:FSM_PROCESS|data_out[31]              ; FIR_10:U1|FSM:FSM_PROCESS|state.M ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[0]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[1]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[2]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[3]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[4]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[5]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[6]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[7]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[8]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[9]               ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[10]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[11]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[12]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[13]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[14]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[15]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[16]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[17]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[18]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[19]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[20]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[21]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[22]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[23]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[24]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[25]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[26]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[27]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[28]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[29]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[30]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
+; FIR_10:U1|FSM:FSM_PROCESS|data_out[31]              ; FIR_10:U1|FSM:FSM_PROCESS|state.N ; yes                    ;
 ; Number of user-specified and inferred latches = 32  ;                                   ;                        ;
 +-----------------------------------------------------+-----------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -676,7 +676,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -686,92 +686,92 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Oct 26 18:41:47 2017
+    Info: Processing started: Mon Oct 30 15:29:54 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fsm_test -c fsm_test
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/clk_div.vhd
-    Info (12022): Found design unit 1: clk_div-arq File: C:/Users/uninorte/Documents/FIR_10/clk_div.vhd Line: 13
-    Info (12023): Found entity 1: clk_div File: C:/Users/uninorte/Documents/FIR_10/clk_div.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/mac.vhd
-    Info (12022): Found design unit 1: MAC-arq File: C:/Users/uninorte/Documents/FIR_10/MAC.vhd Line: 17
-    Info (12023): Found entity 1: MAC File: C:/Users/uninorte/Documents/FIR_10/MAC.vhd Line: 7
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/sieteseg.vhd
-    Info (12022): Found design unit 1: sieteseg-arq File: C:/Users/uninorte/Documents/FIR_10/sieteseg.vhd Line: 10
-    Info (12023): Found entity 1: sieteseg File: C:/Users/uninorte/Documents/FIR_10/sieteseg.vhd Line: 3
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/reg.vhd
-    Info (12022): Found design unit 1: REG-arq File: C:/Users/uninorte/Documents/FIR_10/REG.vhd Line: 15
-    Info (12023): Found entity 1: REG File: C:/Users/uninorte/Documents/FIR_10/REG.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/fsm.vhd
-    Info (12022): Found design unit 1: FSM-arq File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 19
-    Info (12023): Found entity 1: FSM File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 7
-Info (12021): Found 1 design units, including 0 entities, in source file /users/uninorte/documents/fir_10/fir_package.vhd
-    Info (12022): Found design unit 1: FIR_package File: C:/Users/uninorte/Documents/FIR_10/FIR_package.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/fir_10.vhd
-    Info (12022): Found design unit 1: FIR_10-arq File: C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd Line: 18
-    Info (12023): Found entity 1: FIR_10 File: C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd Line: 7
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/data_gen.vhd
-    Info (12022): Found design unit 1: Data_Gen-arq File: C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd Line: 12
-    Info (12023): Found entity 1: Data_Gen File: C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/clk_div_mac.vhd
-    Info (12022): Found design unit 1: clk_div_mac-arq File: C:/Users/uninorte/Documents/FIR_10/clk_div_mac.vhd Line: 13
-    Info (12023): Found entity 1: clk_div_mac File: C:/Users/uninorte/Documents/FIR_10/clk_div_mac.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/clk_div_data.vhd
-    Info (12022): Found design unit 1: clk_div_data-arq File: C:/Users/uninorte/Documents/FIR_10/clk_div_data.vhd Line: 13
-    Info (12023): Found entity 1: clk_div_data File: C:/Users/uninorte/Documents/FIR_10/clk_div_data.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file /users/uninorte/documents/fir_10/bcd27seg.vhd
-    Info (12022): Found design unit 1: bcd27seg-arq File: C:/Users/uninorte/Documents/FIR_10/bcd27seg.vhd Line: 10
-    Info (12023): Found entity 1: bcd27seg File: C:/Users/uninorte/Documents/FIR_10/bcd27seg.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/clk_div.vhd
+    Info (12022): Found design unit 1: clk_div-arq File: C:/Users/Daniela/Desktop/FIR_10/clk_div.vhd Line: 13
+    Info (12023): Found entity 1: clk_div File: C:/Users/Daniela/Desktop/FIR_10/clk_div.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/mac.vhd
+    Info (12022): Found design unit 1: MAC-arq File: C:/Users/Daniela/Desktop/FIR_10/MAC.vhd Line: 17
+    Info (12023): Found entity 1: MAC File: C:/Users/Daniela/Desktop/FIR_10/MAC.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/sieteseg.vhd
+    Info (12022): Found design unit 1: sieteseg-arq File: C:/Users/Daniela/Desktop/FIR_10/sieteseg.vhd Line: 10
+    Info (12023): Found entity 1: sieteseg File: C:/Users/Daniela/Desktop/FIR_10/sieteseg.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/reg.vhd
+    Info (12022): Found design unit 1: REG-arq File: C:/Users/Daniela/Desktop/FIR_10/REG.vhd Line: 15
+    Info (12023): Found entity 1: REG File: C:/Users/Daniela/Desktop/FIR_10/REG.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/fsm.vhd
+    Info (12022): Found design unit 1: FSM-arq File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 19
+    Info (12023): Found entity 1: FSM File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 7
+Info (12021): Found 1 design units, including 0 entities, in source file /users/daniela/desktop/fir_10/fir_package.vhd
+    Info (12022): Found design unit 1: FIR_package File: C:/Users/Daniela/Desktop/FIR_10/FIR_package.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/fir_10.vhd
+    Info (12022): Found design unit 1: FIR_10-arq File: C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd Line: 18
+    Info (12023): Found entity 1: FIR_10 File: C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/data_gen.vhd
+    Info (12022): Found design unit 1: Data_Gen-arq File: C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd Line: 12
+    Info (12023): Found entity 1: Data_Gen File: C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/clk_div_mac.vhd
+    Info (12022): Found design unit 1: clk_div_mac-arq File: C:/Users/Daniela/Desktop/FIR_10/clk_div_mac.vhd Line: 13
+    Info (12023): Found entity 1: clk_div_mac File: C:/Users/Daniela/Desktop/FIR_10/clk_div_mac.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/clk_div_data.vhd
+    Info (12022): Found design unit 1: clk_div_data-arq File: C:/Users/Daniela/Desktop/FIR_10/clk_div_data.vhd Line: 13
+    Info (12023): Found entity 1: clk_div_data File: C:/Users/Daniela/Desktop/FIR_10/clk_div_data.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /users/daniela/desktop/fir_10/bcd27seg.vhd
+    Info (12022): Found design unit 1: bcd27seg-arq File: C:/Users/Daniela/Desktop/FIR_10/bcd27seg.vhd Line: 10
+    Info (12023): Found entity 1: bcd27seg File: C:/Users/Daniela/Desktop/FIR_10/bcd27seg.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file fsm_test.vhd
-    Info (12022): Found design unit 1: fsm_test-arq File: C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd Line: 14
-    Info (12023): Found entity 1: fsm_test File: C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd Line: 6
+    Info (12022): Found design unit 1: fsm_test-arq File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd Line: 14
+    Info (12023): Found entity 1: fsm_test File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd Line: 6
 Info (12127): Elaborating entity "fsm_test" for the top level hierarchy
-Info (12128): Elaborating entity "clk_div_mac" for hierarchy "clk_div_mac:CLOCK_MAC" File: C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd Line: 51
-Info (12128): Elaborating entity "Data_Gen" for hierarchy "Data_Gen:U0" File: C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd Line: 52
-Info (12128): Elaborating entity "FIR_10" for hierarchy "FIR_10:U1" File: C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd Line: 53
-Info (12128): Elaborating entity "clk_div" for hierarchy "FIR_10:U1|clk_div:CLK_D" File: C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd Line: 69
-Info (12128): Elaborating entity "REG" for hierarchy "FIR_10:U1|REG:REG0" File: C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd Line: 71
-Info (12128): Elaborating entity "MAC" for hierarchy "FIR_10:U1|MAC:MAC_PROCESS" File: C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd Line: 73
-Info (12128): Elaborating entity "FSM" for hierarchy "FIR_10:U1|FSM:FSM_PROCESS" File: C:/Users/uninorte/Documents/FIR_10/FIR_10.vhd Line: 75
-Warning (10631): VHDL Process Statement warning at FSM.vhd(34): inferring latch(es) for signal or variable "data_out", which holds its previous value in one or more paths through the process File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[0]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[1]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[2]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[3]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[4]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[5]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[6]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[7]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[8]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[9]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[10]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[11]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[12]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[13]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[14]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[15]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[16]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[17]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[18]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[19]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[20]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[21]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[22]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[23]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[24]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[25]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[26]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[27]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[28]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[29]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[30]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (10041): Inferred latch for "data_out[31]" at FSM.vhd(34) File: C:/Users/uninorte/Documents/FIR_10/FSM.vhd Line: 34
-Info (12128): Elaborating entity "sieteseg" for hierarchy "sieteseg:HEX" File: C:/Users/uninorte/Documents/FIR_10/FSM_test/fsm_test.vhd Line: 54
-Info (12128): Elaborating entity "bcd27seg" for hierarchy "sieteseg:HEX|bcd27seg:D0" File: C:/Users/uninorte/Documents/FIR_10/sieteseg.vhd Line: 28
+Info (12128): Elaborating entity "clk_div_mac" for hierarchy "clk_div_mac:CLOCK_MAC" File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd Line: 51
+Info (12128): Elaborating entity "Data_Gen" for hierarchy "Data_Gen:U0" File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd Line: 52
+Info (12128): Elaborating entity "FIR_10" for hierarchy "FIR_10:U1" File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd Line: 53
+Info (12128): Elaborating entity "clk_div" for hierarchy "FIR_10:U1|clk_div:CLK_D" File: C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd Line: 69
+Info (12128): Elaborating entity "REG" for hierarchy "FIR_10:U1|REG:REG0" File: C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd Line: 71
+Info (12128): Elaborating entity "MAC" for hierarchy "FIR_10:U1|MAC:MAC_PROCESS" File: C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd Line: 73
+Info (12128): Elaborating entity "FSM" for hierarchy "FIR_10:U1|FSM:FSM_PROCESS" File: C:/Users/Daniela/Desktop/FIR_10/FIR_10.vhd Line: 75
+Warning (10631): VHDL Process Statement warning at FSM.vhd(34): inferring latch(es) for signal or variable "data_out", which holds its previous value in one or more paths through the process File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[0]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[1]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[2]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[3]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[4]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[5]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[6]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[7]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[8]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[9]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[10]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[11]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[12]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[13]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[14]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[15]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[16]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[17]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[18]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[19]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[20]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[21]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[22]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[23]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[24]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[25]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[26]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[27]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[28]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[29]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[30]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (10041): Inferred latch for "data_out[31]" at FSM.vhd(34) File: C:/Users/Daniela/Desktop/FIR_10/FSM.vhd Line: 34
+Info (12128): Elaborating entity "sieteseg" for hierarchy "sieteseg:HEX" File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/fsm_test.vhd Line: 54
+Info (12128): Elaborating entity "bcd27seg" for hierarchy "sieteseg:HEX|bcd27seg:D0" File: C:/Users/Daniela/Desktop/FIR_10/sieteseg.vhd Line: 28
 Info (278001): Inferred 1 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "FIR_10:U1|MAC:MAC_PROCESS|Mult0" File: C:/Users/uninorte/Documents/FIR_10/MAC.vhd Line: 26
-Info (12130): Elaborated megafunction instantiation "FIR_10:U1|MAC:MAC_PROCESS|lpm_mult:Mult0" File: C:/Users/uninorte/Documents/FIR_10/MAC.vhd Line: 26
-Info (12133): Instantiated megafunction "FIR_10:U1|MAC:MAC_PROCESS|lpm_mult:Mult0" with the following parameter: File: C:/Users/uninorte/Documents/FIR_10/MAC.vhd Line: 26
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "FIR_10:U1|MAC:MAC_PROCESS|Mult0" File: C:/Users/Daniela/Desktop/FIR_10/MAC.vhd Line: 26
+Info (12130): Elaborated megafunction instantiation "FIR_10:U1|MAC:MAC_PROCESS|lpm_mult:Mult0" File: C:/Users/Daniela/Desktop/FIR_10/MAC.vhd Line: 26
+Info (12133): Instantiated megafunction "FIR_10:U1|MAC:MAC_PROCESS|lpm_mult:Mult0" with the following parameter: File: C:/Users/Daniela/Desktop/FIR_10/MAC.vhd Line: 26
     Info (12134): Parameter "LPM_WIDTHA" = "6"
     Info (12134): Parameter "LPM_WIDTHB" = "14"
     Info (12134): Parameter "LPM_WIDTHP" = "20"
@@ -782,15 +782,15 @@ Info (12133): Instantiated megafunction "FIR_10:U1|MAC:MAC_PROCESS|lpm_mult:Mult
     Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
     Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_e4t.tdf
-    Info (12023): Found entity 1: mult_e4t File: C:/Users/uninorte/Documents/FIR_10/FSM_test/db/mult_e4t.tdf Line: 29
-Info (13000): Registers with preset signals will power-up high File: C:/Users/uninorte/Documents/FIR_10/clk_div_mac.vhd Line: 9
+    Info (12023): Found entity 1: mult_e4t File: C:/Users/Daniela/Desktop/FIR_10/FSM_test/db/mult_e4t.tdf Line: 29
+Info (13000): Registers with preset signals will power-up high File: C:/Users/Daniela/Desktop/FIR_10/clk_div_mac.vhd Line: 9
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Critical Warning (18061): Ignored Power-Up Level option on the following registers
-    Critical Warning (18010): Register Data_Gen:U0|counter[0] will power up to High File: C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd Line: 23
-    Critical Warning (18010): Register Data_Gen:U0|counter[1] will power up to High File: C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd Line: 23
-    Critical Warning (18010): Register Data_Gen:U0|counter[2] will power up to High File: C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd Line: 23
-    Critical Warning (18010): Register Data_Gen:U0|counter[3] will power up to High File: C:/Users/uninorte/Documents/FIR_10/Data_Gen.vhd Line: 23
+    Critical Warning (18010): Register Data_Gen:U0|counter[0] will power up to High File: C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd Line: 23
+    Critical Warning (18010): Register Data_Gen:U0|counter[1] will power up to High File: C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd Line: 23
+    Critical Warning (18010): Register Data_Gen:U0|counter[2] will power up to High File: C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd Line: 23
+    Critical Warning (18010): Register Data_Gen:U0|counter[3] will power up to High File: C:/Users/Daniela/Desktop/FIR_10/Data_Gen.vhd Line: 23
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (21057): Implemented 359 device resources after synthesis - the final resource count might be different
@@ -799,9 +799,9 @@ Info (21057): Implemented 359 device resources after synthesis - the final resou
     Info (21061): Implemented 297 logic cells
     Info (21062): Implemented 2 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 663 megabytes
-    Info: Processing ended: Thu Oct 26 18:42:12 2017
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:37
+    Info: Peak virtual memory: 671 megabytes
+    Info: Processing ended: Mon Oct 30 15:30:14 2017
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:44
 
 
